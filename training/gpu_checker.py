@@ -1,6 +1,13 @@
+## this script use to check if GPU works on Apple silicon chip.
+
+# If GPU is available, after you run it, you can see a line from terminal: "GPU is available".
+
+
 import sys
 import tensorflow.keras
+# conda install pandas
 import pandas as pd
+# conda install scikit-learn
 import sklearn as sk
 import scipy as sp
 import tensorflow as tf
